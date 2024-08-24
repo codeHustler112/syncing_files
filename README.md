@@ -50,3 +50,5 @@ Ensure that your desktop environment supports notifications for notify-send to w
 
 Adjust the script paths and cron schedule according to your needs.
 
+echo $DISPLAY & echo $DBUS_SESSION_BUS_ADDRESS - to find your current DISPLAY and DBUS_SESSION_BUS_ADDRESS values. The notify-send command requires access to your graphical session, which is identified by the DISPLAY and DBUS_SESSION_BUS_ADDRESS environment variables.
+
